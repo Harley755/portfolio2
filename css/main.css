@@ -878,6 +878,24 @@ section {
         display: flex;
         flex-direction: column;
     }
+    /* ----------------------------------- SCROLLBAR ----------------------------------- */
+    /* width */
+     ::-webkit-scrollbar {
+        display: none;
+    }
+    /* Track */
+     ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    /* Handle */
+     ::-webkit-scrollbar-thumb {
+        background: transparent;
+        transition: none;
+    }
+    /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+        background: transparent;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -1031,6 +1049,24 @@ section {
     .contact-content-con .right-contact {
         margin-left: 0;
         margin-bottom: 10vh;
+    }
+    /* ----------------------------------- SCROLLBAR ----------------------------------- */
+    /* width */
+     ::-webkit-scrollbar {
+        display: none;
+    }
+    /* Track */
+     ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    /* Handle */
+     ::-webkit-scrollbar-thumb {
+        background: transparent;
+        transition: none;
+    }
+    /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+        background: transparent;
     }
 }
 
