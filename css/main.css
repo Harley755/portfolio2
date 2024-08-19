@@ -240,6 +240,7 @@ section {
 .about-container .right-about {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     width: 48%;
     height: 30vh;
@@ -376,7 +377,9 @@ section {
 .c_plus,
 .python,
 .java,
-.wordpress {
+.wordpress,
+.dart,
+.flutter {
     position: absolute;
     top: 0;
     left: 0;
@@ -385,39 +388,36 @@ section {
     transition: all .4s ease-in-out;
 }
 
-.html,
-.css,
+.html
 .ps,
-.xd {
-    width: 85%;
+.xd,
+.bootstrap,
+.css {
+    width: 90%;
 }
 
-.js {
-    width: 55%;
-}
-
-.php {
-    width: 65%;
-}
-
-.bootstrap {
+.js,
+.laravel,
+.java,
+.dart   {
     width: 70%;
+}
+
+.php,
+.flutter {
+    width: 80%;
 }
 
 .figma,
 .wordpress {
-    width: 80%;
+    width: 85%;
 }
 
 .c,
-.java,
 .c_plus,
-.laravel {
-    width: 50%;
-}
-
-.python {
-    width: 35%;
+.python 
+{
+    width: 60%;
 }
 
 
@@ -548,15 +548,51 @@ section {
 
 /* ----------------------------------- MY BLOGS ----------------------------------- */
 
-.blogs-content .blog {
+.blogs-content .blog-content {
+    margin-top: 50px;
     color: var(--color-white);
     height: 70vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 5rem;
-    text-transform: uppercase;
 }
+
+.blogs-content .blog-content .debuts,
+.blogs-content .blog-content .immersion,
+.blogs-content .blog-content .mobile,
+.blogs-content .blog-content .competences,
+.blogs-content .blog-content .formation,
+.blogs-content .blog-content .finalite,
+.blogs-content .blog-content .mot-fin  {
+    
+    margin-top: 30px;
+}
+
+.blogs-content .blog-content .intro h4,
+.blogs-content .blog-content .debuts h4,
+.blogs-content .blog-content .immersion h4,
+.blogs-content .blog-content .mobile h4,
+.blogs-content .blog-content .competences h4,
+.blogs-content .blog-content .formation h4,
+.blogs-content .blog-content .finalite h4  {
+    text-align: center;
+    font-weight: bold;
+}
+
+.blogs-content .blog-content .intro p,
+.blogs-content .blog-content .debuts p,
+.blogs-content .blog-content .immersion p,
+.blogs-content .blog-content .mobile p,
+.blogs-content .blog-content .competences p,
+.blogs-content .blog-content .formation p,
+.blogs-content .blog-content .finalite p,
+.blogs-content .blog-content .mot-fin p  {
+   margin-top: 10px;
+}
+
+.blogs-content .blog-content .mot-fin {
+   margin-bottom: 10px;
+}
+
+
 
 
 /* ----------------------------------- CONTACT ME ----------------------------------- */
@@ -1035,7 +1071,7 @@ section {
     }
     /*----------------- MY BLOGS -----------------*/
     .blogs-content .blog {
-        font-size: 2rem;
+        font-size: 17px;
     }
     /*----------------- CONTACT -----------------*/
     .contact-content-con {
